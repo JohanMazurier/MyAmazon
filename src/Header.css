@@ -47,10 +47,10 @@
     color:white;
 }
 
-.headerNav {
-    display: flex;
-    justify-content: space-between;
-}
+/*.headerNav {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
 
 .headerOption {
     display: flex;
