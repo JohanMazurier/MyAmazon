@@ -20,7 +20,7 @@ function Header() {
                 </Form>
 
                 <Nav className="mr-auto">
-                    <div className="headerNav">
+                    {/*<div className="headerNav">*/}
                         <Nav.Link href="#signIn">
                             <div className="headerOption">
                                 <span className="headerOptionLine1">Bonjour</span>
@@ -42,7 +42,7 @@ function Header() {
                                 <span className="headerOptionLine2">Prime</span>
                             </div>
                         </Nav.Link>
-                    </div>
+                    {/*</div>*/}
 
                 </Nav>
 
