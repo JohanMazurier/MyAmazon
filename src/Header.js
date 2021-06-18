@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css'
 import SearchIcon from '@material-ui/icons/Search';
+import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button, Form, FormControl, Nav, Navbar, NavDropdown} from "react-bootstrap";
 
@@ -15,37 +16,41 @@ function Header() {
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse className="basic-navbar-nav">
                 <Form className="headerSearch">
-                    <FormControl type="text" placeholder="Rechercher" className="mr-sm-2"/>
+                    <FormControl type="text" placeholder="Rechercher" className="headerSearchInput mr-sm-2"/>
                     <Button className="headerSearchIcon" variant="dark"><SearchIcon/></Button>
                 </Form>
 
-                <Nav className="mr-auto">
-                    {/*<div className="headerNav">*/}
-                        <Nav.Link href="#signIn">
-                            <div className="headerOption">
-                                <span className="headerOptionLine1">Bonjour</span>
-                                <span className="headerOptionLine2">Se connecter</span>
-                            </div>
-                        </Nav.Link>
+                <Nav className="headerNav mr-auto">
+                    <Nav.Link href="#signIn">
+                        <div className="headerOption">
+                            <span className="headerOptionLine1">Bonjour</span>
+                            <span className="headerOptionLine2">Se connecter</span>
+                        </div>
+                    </Nav.Link>
 
-                        <Nav.Link href="#orders">
-                            <div className="headerOption">
-                                <span className="headerOptionLine1">Retours</span>
-                                <span className="headerOptionLine2">& Commandes</span>
-                            </div>
-                        </Nav.Link>
+                    <Nav.Link href="#orders">
+                        <div className="headerOption">
+                            <span className="headerOptionLine1">Retours</span>
+                            <span className="headerOptionLine2">& Commandes</span>
+                        </div>
+                    </Nav.Link>
 
 
-                        <Nav.Link href="#Prime">
-                            <div className="headerOption">
-                                <span className="headerOptionLine1">Votre</span>
-                                <span className="headerOptionLine2">Prime</span>
-                            </div>
-                        </Nav.Link>
-                    {/*</div>*/}
+                    <Nav.Link href="#Prime">
+                        <div className="headerOption">
+                            <span className="headerOptionLine1">Votre</span>
+                            <span className="headerOptionLine2">Prime</span>
+                        </div>
+                    </Nav.Link>
+
+                    <Nav.Link href="#Basket">
+                        <div className="headerOptionBasket" >
+                            <Button variant="dark"><ShoppingBasketIcon/></Button>
+                            <span className="headerOptionLine2 headerBasketCount">0</span>
+                        </div>
+                    </Nav.Link>
 
                 </Nav>
-
             </Navbar.Collapse>
         </Navbar>
 

@@ -20,16 +20,14 @@
 
 .headerSearch {
     display: flex;
-    flex:1;
+    flex: 1;
     align-items: center;
     border-radius: 24px;
 }
 
-/*.headerSearchInput {*/
-/*    height: 12px;*/
-/*    padding: 12px;*/
-/*    width: 150px;*/
-/*}*/
+.headerSearchInput {
+    border: none;
+}
 
 .headerSearchIcon {
     padding: 4px;
@@ -38,13 +36,13 @@
 
 .headerOptionLine1 {
     font-size: 12px;
-    color:white;
+    color: white;
 }
 
 .headerOptionLine2 {
     font-size: 14px;
     font-weight: bold;
-    color:white;
+    color: white;
 }
 
 /*.headerNav {*/
@@ -57,5 +55,16 @@
     flex-direction: column;
     margin-left: 10px;
     margin-right: 10px;
-    color : white;
+    color: white;
+}
+
+.headerOptionBasket {
+    display: flex;
+    align-items: center;
+    background-color: #131921 !important;
+}
+
+.headerBasketCount {
+    font-size: 20px;
+    margin-left: 10px;
 }
