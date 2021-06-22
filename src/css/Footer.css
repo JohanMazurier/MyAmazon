@@ -1,0 +1,12 @@
+.footerContainer {
+    sticky: bottom;
+    height: 40;
+    font-family: Calibri;
+    font-size: 25px;
+    color: white;
+    background-color: #131921;
+}
+
+.footerText {
+    text-align: center;
+}

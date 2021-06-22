@@ -3,8 +3,6 @@
     display: flex;
     align-items: center;
     background-color: #131921;
-    position: sticky;
-    top: 0;
     z-index: 100;
 }
 
@@ -46,8 +44,6 @@
 }
 
 /*.headerNav {*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
 /*}*/
 
 .headerOption {
@@ -58,13 +54,16 @@
     color: white;
 }
 
-.headerOptionBasket {
+.headerOptionCart {
     display: flex;
     align-items: center;
+}
+
+.cart {
     background-color: #131921 !important;
 }
 
-.headerBasketCount {
+.headerCartCount {
     font-size: 20px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
