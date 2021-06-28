@@ -8,6 +8,9 @@
             <path value="file://$PROJECT_DIR$/src/asset" />
             <path value="file://$PROJECT_DIR$/src/asset/Products" />
             <path value="file://$PROJECT_DIR$/src/asset/MyAmazon" />
+            <path value="file://$PROJECT_DIR$/asset/Products" />
+            <path value="file://$PROJECT_DIR$/asset/MyAmazon" />
+            <path value="file://$PROJECT_DIR$/asset" />
           </resourceRoots>
         </entryData>
       </entry>

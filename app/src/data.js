@@ -1,10 +1,19 @@
+import Metro2035 from './asset/Products/Littérature/Metro2035.jpg';
+import ZSJusticeLeague from './asset/Products/Blu-ray/ZSJusticeLeague.jpg';
+import TLOU2 from './asset/Products/Jeux vidéo/TLOU2.jpg';
+import AppleWatch from './asset/Products/High-tech/AppleWatch.jpg';
+import Chromecast from './asset/Products/High-tech/Chromecast.jpg';
+import ThomasPesquet from './asset/Products/Littérature/ThomasPesquet.jpg';
+import MadMax from './asset/Products/Blu-ray/MadMax.jpg';
+import XboxSeriesS from './asset/Products/Jeux vidéo/XboxSeriesS.jpg';
+
 const data = {
     products: [
         {
             _id: 1,
             name: 'Metro 2035',
             category: 'Littérature',
-            image: '/asset/Products/Metro2035.jpg',
+            image: Metro2035,
             price: 9.99,
             form: 'Dmitry Glukhovsky',
             rating: 4.5,
@@ -15,7 +24,7 @@ const data = {
             _id: 2,
             name: "Zack Snyder's Justice League",
             category: 'Blu-ray',
-            image: "/asset/Products/ZSJusticeLeague.jpeg",
+            image: ZSJusticeLeague,
             price: 29.99,
             from: 'Zack Snyder',
             rating: 4,
@@ -26,7 +35,7 @@ const data = {
             _id: 3,
             name: 'The Last of Us Part II',
             category: 'Jeux vidéo',
-            image: '/asset/Products/TLOU2.jpeg',
+            image: TLOU2,
             price: 39.99,
             from: 'Naughty Dog',
             rating: 4.5,
@@ -35,9 +44,9 @@ const data = {
         },
         {
             _id: 4,
-            name: 'Apple Watch Series 6 (GPS, 44 mm) Boîtier en Aluminium Gris sidéral, Bracelet Sport Noir',
+            name: 'Apple Watch Series 6',
             category: 'High-tech',
-            image: '/asset/Products/AppleWatch.jpg',
+            image: AppleWatch,
             price: 399.99,
             from: 'Apple',
             rating: 5,
@@ -46,9 +55,9 @@ const data = {
         },
         {
             _id: 5,
-            name: 'Google Chromecast: Boitier Multimedia pour Streaming',
+            name: 'Google Chromecast',
             category: 'High-tech',
-            image: '/asset/Products/Chromecast.jpg',
+            image: Chromecast,
             price: 39,
             from: 'Google',
             rating: 4.5,
@@ -59,7 +68,7 @@ const data = {
             _id: 6,
             name: 'Dans la Combi de Thomas Pesquet',
             category: 'Littérature',
-            image: '/asset/Products/ThomasPesquet.jpg',
+            image: ThomasPesquet,
             price: 19.99,
             from: 'Marion Montaigne',
             rating: 3.5,
@@ -70,7 +79,7 @@ const data = {
             _id: 7,
             name: 'Mad Max Anthology',
             category: 'Blu-ray',
-            image: '/asset/Products/MadMax.jpg',
+            image: MadMax,
             price: 29.99,
             from: 'George Miller',
             rating: 5,
@@ -79,9 +88,9 @@ const data = {
         },
         {
             _id: 8,
-            name: 'Xbox Series S | La nouvelle Xbox 100% digitale | Compatible 4K HDR',
+            name: 'Xbox Series S',
             category: 'Jeux vidéo',
-            image: '/asset/Products/XboxSeriesS.jpg',
+            image: XboxSeriesS,
             price: 299.99,
             from: 'Microsoft',
             rating: 4,
