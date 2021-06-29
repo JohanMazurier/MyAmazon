@@ -77,7 +77,7 @@ const data = {
         },
         {
             _id: 7,
-            name: 'Mad Max Anthology',
+            name: 'Mad Max Anthologie',
             category: 'Blu-ray',
             image: MadMax,
             price: 29.99,
