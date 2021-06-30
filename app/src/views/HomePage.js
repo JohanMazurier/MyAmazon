@@ -1,14 +1,14 @@
 import React from 'react';
-import Product from "./component/Product";
+import Product from "../component/Product";
 
 
-import '../src/css/Home.css';
-import '../src/css/Product.css';
+import '../css/HomePage.css';
+import '../css/Product.css';
 
-import data from "./data";
+import data from "../data";
 
 
-function Home() {
+function HomePage() {
     return (
         <div className="home">
             <div className="homeContainer">
@@ -28,4 +28,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default HomePage;

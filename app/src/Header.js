@@ -9,7 +9,7 @@ import {Button, Form, FormControl, Nav, Navbar, NavDropdown} from "react-bootstr
 function Header() {
     return (
         <Navbar className="fixed-top header" expand="lg">
-            <Navbar.Brand href="index.html">
+            <Navbar.Brand href="/">
                 <img className="headerLogo" src="https://i.ibb.co/RY6wfKT/My-Amazon-logo-4.png" alt=""/>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
