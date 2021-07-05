@@ -4,16 +4,16 @@
     background-color: white;
     justify-content: flex-end;
     max-width: 350px;
-    margin: 20px;
+    margin: 5px;
     padding: 30px;
     z-index: 1 !important;
 }
 
-.productPictureContainer {
+.productImageContainer {
     text-align: center;
 }
 
-.productPicture {
+.productImage {
     text-align: center;
     z-index: 1;
     height: 300px;
@@ -22,7 +22,7 @@
 }
 
 @media (max-width: 991px ) {
-    .productPicture {
+    .productImage {
         height: 400px;
     }
     .addToBasket {
@@ -48,17 +48,4 @@
 .productPrice {
     margin-left: 5px;
     margin-bottom: 10px;
-}
-
-.addToBasketContainer {
-    text-align: center;
-}
-
-.addToBasket {
-    border: none;
-    text-align: center;
-    padding-left: 2em;
-    padding-right: 2em;
-    border-radius: 50px;
-    background-color: #ffd814;
 }

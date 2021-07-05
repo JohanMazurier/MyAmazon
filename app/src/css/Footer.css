@@ -13,7 +13,8 @@
 }
 
 @media (max-width: 991px) {
-    .footerText {
-        font-size: 15px
+    .footerContainer{
+        font-size: 15px;
+        max-width: 100%;
     }
 }

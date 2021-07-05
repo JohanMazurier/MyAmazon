@@ -1,5 +1,6 @@
 import React from 'react';
 import Product from "../component/Product";
+import Banner from "../component/Banner"
 
 
 import '../css/HomePage.css';
@@ -10,10 +11,9 @@ import data from "../data";
 
 function HomePage() {
     return (
-        <div className="home">
+        <div className="homePage">
             <div className="homeContainer">
-                <img className="homeImage" src="https://i.ibb.co/D9kZzjn/Background1601x200p.png" alt=""/>
-
+                <Banner/>
                 <div className="homeRow">
                     {data.products.map((product) => (
                         <Product

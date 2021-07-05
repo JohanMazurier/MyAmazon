@@ -12,9 +12,9 @@ function Product(props) {
 
         <div key={product._id} className="productContainer">
             <div className="productInfo">
-                <div className="productPictureContainer">
+                <div className="productImageContainer">
                     <a href={`/product/${product._id}`}>
-                        <img className="productPicture" src={product.image} alt="product"/>
+                        <img src={product.image} alt="product" className="productImage" />
                     </a>
                 </div>
                 <a href={`/product/${product._id}`} style={{textDecoration: 'none', color: 'black'}}>
@@ -30,9 +30,6 @@ function Product(props) {
                     <strong>{product.price}</strong>
                     <small>€</small>
                 </p>
-                <div className="addToBasketContainer">
-                    <button className="addToBasket">Ajouter au Panier</button>
-                </div>
             </div>
         </div>
 
