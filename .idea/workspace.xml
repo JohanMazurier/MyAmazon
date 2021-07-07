@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="69ec44e1-6e88-4a68-827e-a37c0d91872c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/my-amazon.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/css/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/css/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/css/ProductPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/css/ProductPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/views/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/views/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/views/ProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/views/ProductPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/MyAmazon/Background1601x200p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/MyAmazon/Background1601x300p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/MyAmazon/Background900p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/MyAmazon/BackgroundFHD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/MyAmazon/BackgroundUHD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/MyAmazon/MyAmazon logo 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/MyAmazon/MyAmazon logo 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/MyAmazon/MyAmazon logo 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/MyAmazon/MyAmazon logo 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/Products/Metro 2035.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1txElWbxmuUQMEDQUr0ScPMGmjm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/api" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Johan MAZURIER\Bureau\Projets Perso (Training)\React JS et api Node JS\MyAmazon\my-amazon\api" />
+      <recent name="C:\Users\joh19\Desktop\Workspace PC\Projets Perso (Training)\React JS et api Node JS\my-amazon" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joh19\Desktop\Workspace PC\Projets Perso (Training)\React JS et api Node JS\my-amazon" />
+      <recent name="C:\Users\joh19\Desktop\Workspace PC\Projets Perso (Training)\React JS et api Node JS\my-amazon\public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69ec44e1-6e88-4a68-827e-a37c0d91872c" name="Default Changelist" comment="" />
+      <created>1623702495908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623702495908</updated>
+      <workItem from="1623702497538" duration="15592000" />
+      <workItem from="1623879736245" duration="8958000" />
+      <workItem from="1623888822981" duration="207000" />
+      <workItem from="1624048712256" duration="4818000" />
+      <workItem from="1624217831009" duration="16255000" />
+      <workItem from="1624390160623" duration="51000" />
+      <workItem from="1624390238494" duration="856000" />
+      <workItem from="1624400220016" duration="2439000" />
+      <workItem from="1624449359857" duration="19000" />
+      <workItem from="1624714551674" duration="3235000" />
+      <workItem from="1624725970921" duration="1493000" />
+      <workItem from="1624822951532" duration="41000" />
+      <workItem from="1624995327807" duration="156000" />
+      <workItem from="1625041305052" duration="25000" />
+      <workItem from="1625049467572" duration="742000" />
+      <workItem from="1625431385383" duration="8139000" />
+      <workItem from="1625439660263" duration="8093000" />
+      <workItem from="1625497691342" duration="120000" />
+      <workItem from="1625499985595" duration="6699000" />
+      <workItem from="1625523831650" duration="910000" />
+      <workItem from="1625524925303" duration="1029000" />
+      <workItem from="1625526140048" duration="6000" />
+      <workItem from="1625526162649" duration="3740000" />
+      <workItem from="1625601293699" duration="805000" />
+      <workItem from="1625602593855" duration="885000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

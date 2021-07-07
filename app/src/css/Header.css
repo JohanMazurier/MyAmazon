@@ -15,6 +15,11 @@
     width: 125px;
     object-fit: contain;
     margin: 0 20px;
+    border-radius: 5px;
+}
+
+.headerLogo:hover {
+    border: 2px grey solid;
 }
 
 .headerSearch {
@@ -29,8 +34,13 @@
 }
 
 .headerSearchIcon {
+    color: black!important;
     padding : 5px;
-    background-color: #cd9042 !important;
+    background-color: #febd69 !important;
+}
+
+.headerSearchIcon:hover {
+    background-color: #ffa41c!important;
 }
 
 .headerOptionLine1 {
@@ -47,12 +57,27 @@
 /*.headerNav {*/
 /*}*/
 
+.headerOptionContainer {
+    border-radius: 5px;
+}
+
 .headerOption {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
     margin-right: 10px;
     color: white;
+}
+
+.burgerButton {
+    border: 2px #f2d356 solid!important;
+    background-color: white!important;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.burgerButton:hover {
+    border: 2px grey solid;
 }
 
 .headerOptionCart {

@@ -1,19 +1,10 @@
-import Metro2035 from './asset/Products/Littérature/Metro2035.jpg';
-import ZSJusticeLeague from './asset/Products/Blu-ray/ZSJusticeLeague.jpg';
-import TLOU2 from './asset/Products/Jeux vidéo/TLOU2.jpg';
-import AppleWatch from './asset/Products/High-tech/AppleWatch.jpg';
-import Chromecast from './asset/Products/High-tech/Chromecast.jpg';
-import ThomasPesquet from './asset/Products/Littérature/ThomasPesquet.jpg';
-import MadMax from './asset/Products/Blu-ray/MadMax.jpg';
-import XboxSeriesS from './asset/Products/Jeux vidéo/XboxSeriesS.jpg';
-
 const data = {
     products: [
         {
             _id: 1,
             name: 'Metro 2035',
             category: 'Littérature',
-            image: Metro2035,
+            image: "https://i.ibb.co/tmCFCzH/Metro2035.jpg",
             price: 9.99,
             countInStock: 5,
             form: 'Dmitry Glukhovsky',
@@ -25,7 +16,7 @@ const data = {
             _id: 2,
             name: "Zack Snyder's Justice League",
             category: 'Blu-ray',
-            image: ZSJusticeLeague,
+            image: "https://i.ibb.co/6twRnCZ/ZSJustice-League.jpg",
             price: 29.99,
             countInStock: 0,
             from: 'Zack Snyder',
@@ -37,7 +28,7 @@ const data = {
             _id: 3,
             name: 'The Last of Us Part II',
             category: 'Jeux vidéo',
-            image: TLOU2,
+            image: "https://i.ibb.co/QpF3Gbj/TLOU2.jpg",
             price: 39.99,
             countInStock: 32,
             from: 'Naughty Dog',
@@ -49,7 +40,7 @@ const data = {
             _id: 4,
             name: 'Apple Watch Series 6',
             category: 'High-tech',
-            image: AppleWatch,
+            image: "https://i.ibb.co/kB6pLM7/Apple-Watch.jpg",
             price: 399.99,
             countInStock: 7,
             from: 'Apple',
@@ -61,7 +52,7 @@ const data = {
             _id: 5,
             name: 'Google Chromecast',
             category: 'High-tech',
-            image: Chromecast,
+            image: "https://i.ibb.co/v3b2QbP/Chromecast.jpg",
             price: 39,
             countInStock: 18,
             from: 'Google',
@@ -73,7 +64,7 @@ const data = {
             _id: 6,
             name: 'Dans la Combi de Thomas Pesquet',
             category: 'Littérature',
-            image: ThomasPesquet,
+            image: "https://i.ibb.co/m66jQY7/Thomas-Pesquet.jpg",
             price: 19.99,
             countInStock: 2,
             from: 'Marion Montaigne',
@@ -85,7 +76,7 @@ const data = {
             _id: 7,
             name: 'Mad Max Anthologie',
             category: 'Blu-ray',
-            image: MadMax,
+            image: "https://i.ibb.co/FV75FFN/MadMax.jpg",
             price: 29.99,
             countInStock: 8,
             from: 'George Miller',
@@ -97,7 +88,7 @@ const data = {
             _id: 8,
             name: 'Xbox Series S',
             category: 'Jeux vidéo',
-            image: XboxSeriesS,
+            image: "https://i.ibb.co/9tZYKVG/Xbox-Series-S.jpg",
             price: 299.99,
             countInStock: 0,
             from: 'Microsoft',

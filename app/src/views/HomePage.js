@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import Product from "../component/Product";
 import Banner from "../component/Banner"
 
@@ -10,12 +11,20 @@ import data from "../data";
 
 
 function HomePage() {
+    const [products, setProducts] = useState([]);
+    useEffect(()=> {
+        const fetchData = async () =>{
+            const {data} = await axios.get('/api/products');
+            setProducts(data);
+        };
+        fetchData();
+    }, [])
     return (
         <div className="homePage">
             <div className="homeContainer">
                 <Banner/>
                 <div className="homeRow">
-                    {data.products.map((product) => (
+                    {products.map((product) => (
                         <Product
                             key={product._id}
                             product={product}

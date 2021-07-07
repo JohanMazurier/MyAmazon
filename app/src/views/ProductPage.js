@@ -1,4 +1,5 @@
 import React from 'react';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import data from '../data'
 import Banner from '../component/Banner';
 import Rating from '../component/Rating';
@@ -70,7 +71,9 @@ function ProductPage(props) {
                                             <br/>
                                             <div>
                                                 <div className="addToBasketContainer">
-                                                    <button className="addToBasket">Ajouter au Panier</button>
+                                                        <button className="addToBasket">
+                                                            <ShoppingCartIcon/>   Ajouter au Panier
+                                                        </button>
                                                 </div>
                                             </div>
                                         </div>

@@ -12,7 +12,7 @@ function Header() {
             <Navbar.Brand href="/">
                 <img className="headerLogo" src="https://i.ibb.co/RY6wfKT/My-Amazon-logo-4.png" alt=""/>
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+            <Navbar.Toggle className="burgerButton" aria-controls="basic-navbar-nav-reverse"/>
             <Navbar.Collapse className="basic-navbar-nav">
                 <Form className="headerSearch">
                     <FormControl type="text" placeholder="Rechercher" className="headerSearchInput mr-sm-2"/>
@@ -20,7 +20,7 @@ function Header() {
                 </Form>
 
                 <Nav className="headerNav mr-auto">
-                    <Nav.Link href="signin.html">
+                    <Nav.Link className="headerOptionContainer" href="signin.html">
                         <div className="headerOption">
                             <span className="headerOptionLine1">Bonjour</span>
                             <span className="headerOptionLine2">Se connecter</span>
