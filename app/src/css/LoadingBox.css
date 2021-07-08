@@ -25,8 +25,8 @@
 
 .loading-box:before {
     height: 15px;
-    background: #0fa6de;
-    opacity: .3;
+    background: #131921;
+    opacity: .9;
     top: 75px;
     border-radius: 50%;
     animation: shadow .5s linear infinite
@@ -34,8 +34,8 @@
 
 .loading-box:after {
     height: 70px;
-    background: #dfb882;
-    opacity: .8;
+    background: #f2d356;
+    opacity: .9;
     animation: animate .5s linear infinite;
     top: 0;
     border-radius: 15px
