@@ -1,0 +1,27 @@
+.messageBoxContainer {
+    text-align: center;
+}
+
+.success {
+    color: limegreen;
+}
+
+.error {
+    color: red;
+}
+
+.alert {
+    padding : 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+.alert-info {
+    color: lightskyblue;
+    background-color: rgba(135, 206, 250, 0.33);
+}
+
+.alert-danger {
+    color: red;
+    background-color: #ff000033;
+}

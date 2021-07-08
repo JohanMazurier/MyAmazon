@@ -7,11 +7,11 @@ import {Button, Form, FormControl, Nav, Navbar, NavDropdown} from "react-bootstr
 
 function Footer() {
     return (
-        <nav className="footerContainer">
+        <div className="footerContainer">
             <div className="footerText">
                 Formation CDA - Johan Mazurier - 2021
             </div>
-        </nav>
+        </div>
     );
 };
 

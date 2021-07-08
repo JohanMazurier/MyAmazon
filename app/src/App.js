@@ -10,10 +10,8 @@ function App() {
         <div className="app">
             <BrowserRouter>
                 <Header/>
-                <main>
                 <Route path="/" component={HomePage} exact></Route>
                 <Route path="/product/:id" component={ProductPage} ></Route>
-                </main>
                 <Footer/>
             </BrowserRouter>
         </div>
