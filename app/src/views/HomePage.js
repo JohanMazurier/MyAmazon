@@ -11,29 +11,49 @@ import data from "../data";
 
 
 function HomePage() {
+
     const [products, setProducts] = useState([]);
-    useEffect(()=> {
-        const fetchData = async () =>{
-            const {data} = await axios.get('/api/products');
-            setProducts(data);
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState(false);
+
+    useEffect(() => {
+        const fetchData = async() => {
+            try {
+
+                setLoading(true);
+
+                const { data } = await axios.get('/api/products');
+                setLoading(false);
+                setProducts(data);
+            } catch (err) {
+                setError(err.message);
+                setLoading(false)
+            }
         };
         fetchData();
     }, [])
-    return (
-        <div className="homePage">
-            <div className="homeContainer">
-                <Banner/>
-                <div className="homeRow">
-                    {products.map((product) => (
-                        <Product
-                            key={product._id}
-                            product={product}
-                        >
-                        </Product>
-                    ))}
-                </div>
-            </div>
-        </div>
+    return ( <
+        div className = "homePage" >
+        <
+        div className = "homeContainer" >
+        <
+        Banner / > {
+            loading ? ( < LoadingBox > < /LoadingBox>) : error ? ( < MessageBox > { error } < /MessageBox > ) : ( <
+                div className = "homeRow" > {
+                    products.map((product) => ( <
+                        Product key = { product._id }
+                        product = { product } >
+                        <
+                        /Product>
+                    ))
+                } <
+                /div>
+            )
+        }
+
+        <
+        /div> < /
+        div >
     );
 }
 
