@@ -82,7 +82,7 @@ const data = {
             from: 'George Miller',
             rating: 5,
             numReviews: 25,
-            description: 'Quatre film culte dans un seul coffret',
+            description: 'Quatre films cultes dans un seul coffret',
         },
         {
             _id: 8,

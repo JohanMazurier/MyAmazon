@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69ec44e1-6e88-4a68-827e-a37c0d91872c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/actions/productActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/constants/productConstants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/reducers/productReducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/css/LoadingBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/css/LoadingBox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/css/MessageBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/css/MessageBox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/views/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/views/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
