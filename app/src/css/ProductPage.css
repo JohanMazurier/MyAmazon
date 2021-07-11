@@ -15,6 +15,10 @@
     margin-bottom: 10px;
 }
 
+.productCategory {
+    color: grey;
+}
+
 .productDescriptionStatusContainer {
     align-content: center;
     padding-top: 25px;
@@ -28,7 +32,7 @@
     margin-right: 5px;
 }
 
-.pageRow {
+.productPageContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -38,16 +42,27 @@
     margin-bottom: 50px;
 }
 
-.productPageContainer {
-    text-align: center;
-}
-
 .productDescriptionContainer {
     margin-bottom: 25px;
 }
 
 .card card-body {
     padding : 32px;
+}
+
+.inStockRow {
+    margin-bottom: 10px;
+}
+
+.selectBox {
+    width: 45px;
+    border: 2px grey solid;
+    border-radius : 5px;
+    margin-bottom: 15px;
+}
+
+.selectBox:hover {
+    border:2px black solid;
 }
 
 .addToBasketContainer {

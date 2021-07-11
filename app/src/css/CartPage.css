@@ -1,0 +1,89 @@
+.yourCart {
+    text-align: center;
+}
+.cartPage {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+
+.pageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cartPageImageContainer {
+    max-width: 100%;
+}
+
+.cartPageImage{
+    text-align: center;
+    z-index: 1;
+    max-height: 300px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.cartPageContainer {
+padding : 25px;
+}
+
+.cartProductDescriptionContainer {
+    align-content: center;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 500px;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.totalContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.cartContainer {
+    padding : 25px;
+    border: 1px grey solid;
+    border-radius : 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between
+}
+
+.deleteButton {
+    border: none;
+    text-align: center;
+    padding: 2px;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 50px;
+    background-color : grey!important,
+}
+
+.deleteButton:hover {
+    background-color: red;
+}
+
+.validateCart {
+    border: none;
+    text-align: center;
+    padding: 2px;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 50px;
+    background-color: #ffd814!important;
+}
+
+.validateCart:hover {
+    background-color: #ffa41c!important;
+}

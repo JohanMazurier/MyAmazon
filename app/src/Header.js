@@ -2,16 +2,22 @@ import React from 'react';
 import '../src/css/Header.css'
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import { useSelector } from 'react-redux';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button, Form, FormControl, Nav, Navbar, NavDropdown} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 
 function Header() {
+
+    const cart = useSelector((state) => state.cart);
+    const { cartItems } = cart;
+
     return (
         <Navbar className="fixed-top header" expand="lg">
-            <Navbar.Brand href="/">
+            <Link to="/">
                 <img className="headerLogo" src="https://i.ibb.co/RY6wfKT/My-Amazon-logo-4.png" alt=""/>
-            </Navbar.Brand>
+            </Link>
             <Navbar.Toggle className="burgerButton" aria-controls="basic-navbar-nav-reverse"/>
             <Navbar.Collapse className="basic-navbar-nav">
                 <Form className="headerSearch">
@@ -20,12 +26,12 @@ function Header() {
                 </Form>
 
                 <Nav className="headerNav mr-auto">
-                    <Nav.Link className="headerOptionContainer" href="signin.html">
+                    <Link className="headerOptionContainer" to="/signin">
                         <div className="headerOption">
                             <span className="headerOptionLine1">Bonjour</span>
                             <span className="headerOptionLine2">Se connecter</span>
                         </div>
-                    </Nav.Link>
+                    </Link>
 
                     {/*<Nav.Link href="#orders">*/}
                     {/*    <div className="headerOption">*/}
@@ -34,12 +40,13 @@ function Header() {
                     {/*    </div>*/}
                     {/*</Nav.Link>*/}
 
-                    <Nav.Link href="cart.html">
-                        <div className="headerOptionCart" >
-                            <Button className="cart" variant="dark"><ShoppingCartIcon/></Button>
-                            <span className="headerOptionLine2 headerCartCount">0</span>
+                    <Link to="/cart">
+                        <div className="headerOptionCart text" >
+                            <Button className="cart" variant="dark"><ShoppingCartIcon/>
+                            <span className="headerOptionLine2 headerCartCount text-decoration-none">{cartItems.length}</span>
+                            </Button>
                         </div>
-                    </Nav.Link>
+                    </Link>
 
                 </Nav>
             </Navbar.Collapse>

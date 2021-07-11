@@ -7,7 +7,7 @@ const data = {
             image: "https://i.ibb.co/tmCFCzH/Metro2035.jpg",
             price: 9.99,
             countInStock: 5,
-            form: 'Dmitry Glukhovsky',
+            from: 'Dmitry Glukhovsky',
             rating: 4.5,
             numReviews: 10,
             description: 'Le dernier chapitre de la saga Metro',

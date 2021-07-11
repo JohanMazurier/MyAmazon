@@ -1,8 +1,8 @@
 import React from 'react';
 import Rating from "./Rating";
+import {Link} from "react-router-dom";
 
 import '../css/Product.css';
-import data from "../data";
 
 function Product(props) {
 
@@ -13,13 +13,13 @@ function Product(props) {
         <div key={product._id} className="productContainer">
             <div className="productInfo">
                 <div className="productImageContainer">
-                    <a href={`/product/${product._id}`}>
+                    <Link to={`/product/${product._id}`}>
                         <img src={product.image} alt="product" className="productImage" />
-                    </a>
+                    </Link>
                 </div>
-                <a href={`/product/${product._id}`} style={{textDecoration: 'none', color: 'black'}}>
+                <Link to={`/product/${product._id}`} style={{textDecoration: 'none', color: 'black'}}>
                     <h5 className="name">{product.name}</h5>
-                </a>
+                </Link>
 
                 <Rating
                     rating={product.rating}

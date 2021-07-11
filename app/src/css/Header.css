@@ -59,6 +59,15 @@
 
 .headerOptionContainer {
     border-radius: 5px;
+    text-decoration: none;
+}
+
+.headerOptionLine2 {
+    text-decoration: none!important;
+}
+
+.headerCartCount {
+    color:#f2d356;
 }
 
 .headerOption {
@@ -83,6 +92,7 @@
 .headerOptionCart {
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .cart {
