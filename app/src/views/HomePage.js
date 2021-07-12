@@ -6,9 +6,6 @@ import MessageBox from "../component/MessageBox";
 import {useDispatch, useSelector} from 'react-redux'
 import {listProducts} from '../actions/productActions'
 
-import '../css/HomePage.css';
-import '../css/Product.css';
-
 import data from "../data";
 
 

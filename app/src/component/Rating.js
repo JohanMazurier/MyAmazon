@@ -3,8 +3,6 @@ import StarIcon from '@material-ui/icons/Star';
 import StarHalfIcon from '@material-ui/icons/StarHalf';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
 
-import '../css/Product.css';
-
 function Rating(props) {
     const {rating, numReviews} = props;
     return (

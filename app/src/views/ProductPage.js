@@ -7,7 +7,6 @@ import LoadingBox from "../component/LoadingBox";
 import MessageBox from "../component/MessageBox";
 import Banner from '../component/Banner';
 import Rating from '../component/Rating';
-import "../css/ProductPage.css";
 
 function ProductPage(props) {
 
@@ -69,9 +68,6 @@ function ProductPage(props) {
                                         />
                                     </div>
                                     <hr />
-                                    <div>Prix :
-                                        <strong> {product.price}</strong><small>€</small>
-                                    </div>
                                     <div>Description :
                                         <p>{product.description}</p>
                                     </div>

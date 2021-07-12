@@ -1,5 +1,4 @@
 import React from 'react';
-import '../src/css/Footer.css'
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import 'bootstrap/dist/css/bootstrap.min.css';

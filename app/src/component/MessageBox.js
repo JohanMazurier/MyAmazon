@@ -1,5 +1,4 @@
 import React from 'react';
-import "../css/MessageBox.css"
 
 function MessageBox(props) {
 

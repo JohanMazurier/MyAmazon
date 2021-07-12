@@ -1,4 +1,21 @@
+import bcrypt from 'bcryptjs';
+
 const data = {
+    users: [
+        {
+            name: 'Johan',
+            email: 'admin@example.com',
+            password: bcrypt.hashSync('1234', 8),
+            isAdmin: true,
+        },
+        {
+            name: 'Coline',
+            email: 'user@example.com',
+            password: bcrypt.hashSync('4321', 8),
+            isAdmin: false,
+        },
+    ],
+
     products: [
         {
             _id: 1,
@@ -95,8 +112,8 @@ const data = {
             rating: 4,
             numReviews: 20,
             description: 'La console Next-gen la plus compacte et abordable du marché',
-        }
-    ]
+        },
+    ],
 };
 
 export default data

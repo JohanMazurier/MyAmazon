@@ -1,5 +1,4 @@
 import React from 'react';
-import '../src/css/Header.css'
 import SearchIcon from '@material-ui/icons/Search';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import { useSelector } from 'react-redux';
