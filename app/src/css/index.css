@@ -300,8 +300,7 @@
 .cartRow {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     z-index: 1;
     margin-left: 5px;
     margin-right: 5px;
@@ -334,16 +333,17 @@
 .cartPageImage{
     text-align: center;
     z-index: 1;
-    max-height: 400px;
+    max-height: 200px;
     object-fit: contain;
     margin-bottom: 10px;
 }
 
 .cartPageContainer {
+    padding-right: 5px!important;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding : 25px;
+    padding: 25px;
 }
 
 .cartProductDescriptionContainer {
@@ -356,7 +356,6 @@
 }
 
 .cartContainer {
-    margin:10px;
     margin-top:15px;
     padding : 25px;
     border: 2px #f2d356 solid;
@@ -370,6 +369,21 @@
     width: 470px;
     text-decoration: none!important;
     color: black;
+}
+
+.sousTotal {
+    font-size: 1.9em;
+}
+
+.total {
+    border:2px grey solid!important;
+    border-radius: 15px!important;
+    margin-right: 5px;
+    margin-top: 60px;
+    margin-bottom:60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
 }
 
 .deleteButton {
@@ -401,13 +415,30 @@
 }
 
 @media (max-width: 991px) {
+    .cartRow {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cartPageContainer{
+        padding : 0px;
+        min-width: 314px;
+    }
+
     .cartProductDescriptionContainer{
         width: 250px;
     }
 
     .cartPageImageContainer{
-        width:250px;
+        width:314px;
     }
+
+    .totalContainer {
+        min-width: 314px;
+        margin: 0px;
+    }
+
 }
 
 /*Footer*/

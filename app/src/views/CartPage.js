@@ -112,7 +112,7 @@ function CartPage(props) {
                     <div className="totalContainer">
                         <div className="total card card-body">
                             <div>
-                                <h2>
+                                <h2 className="sousTotal">
                                     Sous-total ({cartItems.reduce((a, c) => a + c.qty, 0)} articles) :
                                     {" "}{cartItems.reduce((a, c) => a + c.price * c.qty, 0).toFixed(2)} €
                                 </h2>
