@@ -7,6 +7,7 @@ import RegisterPage from "./views/RegisterPage"
 import ShippingAddressPage from "./views/ShippingAddressPage"
 import PaymentMethodPage from "./views/PaymentMethodPage"
 import PlaceOrderPage from "./views/PlaceOrderPage"
+import OrderPage from './views/OrderPage';
 import Footer from "./Footer";
 import {BrowserRouter, Route} from "react-router-dom";
 
@@ -24,6 +25,7 @@ function App() {
                     <Route path="/shipping" component={ShippingAddressPage}></Route>
                     <Route path="/payment" component={PaymentMethodPage}></Route>
                     <Route path="/placeorder" component={PlaceOrderPage}></Route>
+                    <Route path="/order/:id" component={OrderPage}></Route>
                 </main>
                 <Footer/>
             </BrowserRouter>

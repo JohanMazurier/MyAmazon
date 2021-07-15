@@ -5,34 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69ec44e1-6e88-4a68-827e-a37c0d91872c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/actions/userActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/CheckoutSteps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/MessageBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/constants/userConstants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/reducers/userReducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/views/PaymentMethodPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/views/PlaceOrderPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/views/RegisterPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/views/ShippingAddressPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/views/SigninPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/models/orderModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/routers/orderRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/actions/orderActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/constants/orderConstants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/reducers/orderReducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/views/OrderPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/routers/userRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routers/userRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/actions/cartActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/actions/cartActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/component/Banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/Banner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/component/LoadingBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/LoadingBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/component/MessageBox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/component/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/Product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/component/Rating.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/Rating.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/constants/cartConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/constants/cartConstants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/reducers/cartReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/reducers/cartReducers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/views/CartPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/views/CartPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/views/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/views/HomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/views/ProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/views/ProductPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/views/PlaceOrderPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/views/PlaceOrderPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +137,7 @@
       <workItem from="1625928970635" duration="1750000" />
       <workItem from="1626036030148" duration="27351000" />
       <workItem from="1626263110428" duration="7219000" />
-      <workItem from="1626282622652" duration="30888000" />
+      <workItem from="1626282622652" duration="39391000" />
     </task>
     <servers />
   </component>
