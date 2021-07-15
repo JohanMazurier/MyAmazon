@@ -3,10 +3,10 @@ import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux'
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import { detailsProduct } from '../actions/productActions';
-import LoadingBox from "../component/LoadingBox";
-import MessageBox from "../component/MessageBox";
-import Banner from '../component/Banner';
-import Rating from '../component/Rating';
+import LoadingBox from "../components/LoadingBox";
+import MessageBox from "../components/MessageBox";
+import Banner from '../components/Banner';
+import Rating from '../components/Rating';
 
 function ProductPage(props) {
 

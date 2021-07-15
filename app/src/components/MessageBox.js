@@ -4,9 +4,9 @@ function MessageBox(props) {
 
     return (
         <div className="messageBoxContainer">
-       <div className={`alert alert-${props.variant || 'info'}`}>
-           {props.children}
-       </div>
+            <div className={`alert alert-${props.variant || 'info'}`}>
+                {props.children}
+            </div>
         </div>
     );
 }

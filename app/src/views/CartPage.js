@@ -1,9 +1,9 @@
-import Banner from '../component/Banner';
 import React, {useEffect} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import { addToCart, removeFromCart } from '../actions/cartActions';
-import MessageBox from '../component/MessageBox';
+import MessageBox from '../components/MessageBox';
 import {Link} from 'react-router-dom';
+import Banner from '../components/Banner';
 
 function CartPage(props) {
     const productId = props.match.params.id;
@@ -28,21 +28,23 @@ function CartPage(props) {
 
     return (
         <div className="cartPage">
-            <div className="PageContainer">
+            <div className="cartContainer">
                 <Banner/>
                 <h1 className="yourCart">Votre Panier</h1>
                 <div className="cartRow">
 
                     {cartItems.length == 0 ? (
+                        <div className="messageBoxCartContainer">
                         <MessageBox>
                             Il semblerait que votre panier soit vide, cliquez pour <Link to="/">commencer votre Shopping
                             ! </Link>
                         </MessageBox>
+                        </div>
                     ) : (
                         <div className="cartPageContainer">
                             {cartItems.map((item) => (
 
-                                <div className="cartContainer" key={item.product}>
+                                <div className="cartPageProductContainer" key={item.product}>
 
                                     <div className="cartPageImageContainer">
                                         <Link to={`/product/${item.product}`}><img src={item.image} alt={item.name} className="cartPageImage"></img></Link>
