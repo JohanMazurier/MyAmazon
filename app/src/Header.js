@@ -53,7 +53,12 @@ function Header() {
                                 </div>
 
                                 <Dropdown.Menu className="dropdownMenuShow">
-                                    <Dropdown.Item to="#signout" className="dropdownMenuShow" onClick={signoutHandler}>Se déconnecter</Dropdown.Item>
+                                    <Dropdown.Item
+                                    href="/orderhistory" className="dropdownMenuShow">Vos commandes
+                                    </Dropdown.Item>
+                                    <hr/>
+                                    <Dropdown.Item to="#signout" className="dropdownMenuShow" onClick={signoutHandler}>Se
+                                        déconnecter</Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
 
@@ -69,15 +74,14 @@ function Header() {
                             //     </ul>
                             // </div>
                         ) : (
-                        <Link className="headerOptionContainer" to="/signin">
-                        <div className="headerOption">
-                        <span className="headerOptionLine1">Bonjour</span>
-                        <span className="headerOptionLine2">Identifiez-vous</span>
-                        </div>
-                        </Link>
+                            <Link className="headerOptionContainer" to="/signin">
+                                <div className="headerOption">
+                                    <span className="headerOptionLine1">Bonjour</span>
+                                    <span className="headerOptionLine2">Identifiez-vous</span>
+                                </div>
+                            </Link>
                         )
                     }
-
 
                     {/*<Nav.Link href="#orders">*/}
                     {/*    <div className="headerOption">*/}

@@ -53,8 +53,8 @@
     background-color: #131921!important;
     text-decoration:none;
     color:white!important;
-    padding-top: 2px!important;
-    padding-bottom: 2px!important;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .headerOptionLine1 {
@@ -851,7 +851,7 @@ totalContainer {
     text-align: center;
 }
 
-.placeOrderTotalRow {
+.orderTotalRow {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -868,7 +868,7 @@ totalContainer {
 }
 
 @media (min-width: 991px) {
-    .placeOrderContainer{
+    .orderContainer{
         width : 800px;
     }
 }
@@ -882,6 +882,46 @@ totalContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+/*OrderHistoryPage*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+.orderHistoryPage {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+
+.orderHistoryPageContainer {
+    padding-right: 5px !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.orderHistoryTitle {
+    text-align: center;
+    padding: 15px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table tbody tr:nth-of-type(odd) {
+    background-color: #f4f4f4;
+}
+.table td,
+.table th {
+    text-align: left;
+    border: 0.1rem solid #e4e4e4;
+    padding: 0.5rem;
+}
+.table button {
+    margin: 0 0.2rem;
 }
 
 /*Footer*/

@@ -8,6 +8,7 @@ import ShippingAddressPage from "./views/ShippingAddressPage"
 import PaymentMethodPage from "./views/PaymentMethodPage"
 import PlaceOrderPage from "./views/PlaceOrderPage"
 import OrderPage from './views/OrderPage';
+import OrderHistoryPage from './views/OrderHistoryPage';
 import Footer from "./Footer";
 import {BrowserRouter, Route} from "react-router-dom";
 
@@ -26,6 +27,7 @@ function App() {
                     <Route path="/payment" component={PaymentMethodPage}></Route>
                     <Route path="/placeorder" component={PlaceOrderPage}></Route>
                     <Route path="/order/:id" component={OrderPage}></Route>
+                    <Route path="/orderhistory" component={OrderHistoryPage}></Route>
                 </main>
                 <Footer/>
             </BrowserRouter>
