@@ -41,7 +41,7 @@ function Header() {
                         userInfo ? (
 
                             <Dropdown as={ButtonGroup}>
-                                <Link className="headerOptionContainer" to="/#">
+                                <Link className="headerOptionContainer" to="/profile">
                                     <div className="headerOption">
                                         <span className="headerOptionLine1">Bonjour</span>
                                         <span className="headerOptionLine2">{userInfo.name}</span>
@@ -53,6 +53,9 @@ function Header() {
                                 </div>
 
                                 <Dropdown.Menu className="dropdownMenuShow">
+                                    <Dropdown.Item
+                                        href="/profile" className="dropdownMenuShow">Votre profil
+                                    </Dropdown.Item>
                                     <Dropdown.Item
                                     href="/orderhistory" className="dropdownMenuShow">Vos commandes
                                     </Dropdown.Item>
@@ -82,6 +85,38 @@ function Header() {
                             </Link>
                         )
                     }
+
+                    {userInfo && userInfo.isAdmin && (
+
+                        <Dropdown as={ButtonGroup}>
+                            <Link className="headerOptionContainer" to="/dashboard">
+                                <div className="headerOption">
+                                    <span className="headerOptionLine1">Espace</span>
+                                    <span className="headerOptionLine2">Admin</span>
+                                </div>
+                            </Link>
+
+                            <div className="dropdownButtonContainer">
+                                <Dropdown.Toggle className="dropdownButton"/>
+                            </div>
+
+                            <Dropdown.Menu className="dropdownMenuShow">
+                                <Dropdown.Item
+                                    href="/dashboard" className="dropdownMenuShow">Dashboard
+                                </Dropdown.Item>
+                                <Dropdown.Item
+                                    href="/productlist" className="dropdownMenuShow">Produits
+                                </Dropdown.Item><Dropdown.Item
+                                    href="/orderlist" className="dropdownMenuShow">Commandes
+                                </Dropdown.Item><Dropdown.Item
+                                    href="/userlist" className="dropdownMenuShow">Utilisateurs
+                                </Dropdown.Item>
+                                <hr/>
+                                <Dropdown.Item to="#signout" className="dropdownMenuShow" onClick={signoutHandler}>Se
+                                    déconnecter</Dropdown.Item>
+                            </Dropdown.Menu>
+                        </Dropdown>
+                    )}
 
                     {/*<Nav.Link href="#orders">*/}
                     {/*    <div className="headerOption">*/}

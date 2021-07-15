@@ -578,6 +578,56 @@
     background-color: #ffa41c!important;
 }
 
+/*ProfilePage*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+.profilePage {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+
+.profileHeaderLogoContainer {
+    text-align: center;
+
+}
+
+.profileHeaderLogo {
+    border-radius: 10px;
+    width: 200px;
+    margin-top:15px;
+    margin-bottom: 50px;
+}
+
+.form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form > div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.form label {
+    margin: 10px 0;
+}
+
+.profileButton {
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #ffd814!important;
+    margin-bottom: 48px;
+}
+
+.profileButton:hover {
+    background-color: #ffa41c!important;
+}
+
 /*ShippingAddressPage*/
 /*--------------------------------------------------------------------------------------------------------------------*/
 .shippingAddressPage {
@@ -922,6 +972,73 @@ totalContainer {
 }
 .table button {
     margin: 0 0.2rem;
+}
+
+.detailsOrder {
+    border-radius: 5px;
+    background-color: rgba(135, 206, 250, 0.33);
+}
+
+.detailsOrder:hover{
+    background-color: lightskyblue;
+}
+
+/*ProductListPage*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+.productListPage {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+
+.productListPageContainer {
+    padding-right: 5px !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.productListTitle {
+    text-align: center;
+    padding: 15px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table tbody tr:nth-of-type(odd) {
+    background-color: #f4f4f4;
+}
+.table td,
+.table th {
+    text-align: left;
+    border: 0.1rem solid #e4e4e4;
+    padding: 0.5rem;
+}
+.table button {
+    margin: 0 0.2rem;
+}
+
+.editProduct {
+    border-radius : 5px;
+    background-color: rgba(135, 206, 250, 0.33);
+}
+
+.editProduct:hover{
+    background-color: lightskyblue;
+}
+
+.deleteProduct {
+    border-radius: 5px;
+    background-color: rgba(255, 69, 0, 0.33);
+}
+
+.deleteProduct:hover {
+    background-color: orangered;
 }
 
 /*Footer*/

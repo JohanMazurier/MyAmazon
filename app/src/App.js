@@ -4,11 +4,15 @@ import ProductPage from "./views/ProductPage";
 import CartPage from "./views/CartPage"
 import SigninPage from "./views/SigninPage"
 import RegisterPage from "./views/RegisterPage"
+import AdminRoute from './components/AdminRoute';
 import ShippingAddressPage from "./views/ShippingAddressPage"
 import PaymentMethodPage from "./views/PaymentMethodPage"
 import PlaceOrderPage from "./views/PlaceOrderPage"
 import OrderPage from './views/OrderPage';
 import OrderHistoryPage from './views/OrderHistoryPage';
+import ProfilePage from './views/ProfilePage';
+import PrivateRoute from './components/PrivateRoute';
+import ProductListPage from './views/ProductListPage';
 import Footer from "./Footer";
 import {BrowserRouter, Route} from "react-router-dom";
 
@@ -28,6 +32,14 @@ function App() {
                     <Route path="/placeorder" component={PlaceOrderPage}></Route>
                     <Route path="/order/:id" component={OrderPage}></Route>
                     <Route path="/orderhistory" component={OrderHistoryPage}></Route>
+                    <PrivateRoute
+                        path="/profile"
+                        component={ProfilePage}
+                    ></PrivateRoute>
+                    <AdminRoute
+                        path="/productlist"
+                        component={ProductListPage}
+                    ></AdminRoute>
                 </main>
                 <Footer/>
             </BrowserRouter>
