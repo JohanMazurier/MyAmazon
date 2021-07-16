@@ -57,6 +57,11 @@
     margin-bottom: 5px;
 }
 
+.admin {
+    text-decoration: underline;
+    padding-left: 16px!important;
+}
+
 .headerOptionLine1 {
     font-size: 12px;
     color: white;

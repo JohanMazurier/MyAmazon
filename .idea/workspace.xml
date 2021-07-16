@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69ec44e1-6e88-4a68-827e-a37c0d91872c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/components/AdminRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/PrivateRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/views/ProductListPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/views/ProfilePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models/orderModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/models/orderModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/routers/orderRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routers/orderRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/routers/userRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routers/userRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/actions/userActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/actions/userActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/constants/userConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/constants/userConstants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/reducers/userReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/reducers/userReducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/views/OrderHistoryPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/views/OrderHistoryPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +125,7 @@
       <workItem from="1625928970635" duration="1750000" />
       <workItem from="1626036030148" duration="27351000" />
       <workItem from="1626263110428" duration="7219000" />
-      <workItem from="1626282622652" duration="54264000" />
+      <workItem from="1626282622652" duration="61853000" />
     </task>
     <servers />
   </component>

@@ -38,85 +38,100 @@ function Header() {
                 <Nav className="headerNav mr-auto">
 
                     {
-                        userInfo ? (
+                        userInfo && !userInfo.isAdmin ? (
 
-                            <Dropdown as={ButtonGroup}>
-                                <Link className="headerOptionContainer" to="/profile">
-                                    <div className="headerOption">
-                                        <span className="headerOptionLine1">Bonjour</span>
-                                        <span className="headerOptionLine2">{userInfo.name}</span>
+                                <Dropdown as={ButtonGroup}>
+                                    <Link className="headerOptionContainer" to="/profile">
+                                        <div className="headerOption">
+                                            <span className="headerOptionLine1">Bonjour</span>
+                                            <span className="headerOptionLine2">{userInfo.name}</span>
+                                        </div>
+                                    </Link>
+
+                                    <div className="dropdownButtonContainer">
+                                        <Dropdown.Toggle className="dropdownButton"/>
                                     </div>
-                                </Link>
 
-                                <div className="dropdownButtonContainer">
-                                    <Dropdown.Toggle className="dropdownButton"/>
-                                </div>
+                                    <Dropdown.Menu className="dropdownMenuShow">
+                                        <Dropdown.Item
+                                            href="/profile" className="dropdownMenuShow">Votre profil
+                                        </Dropdown.Item>
+                                        <Dropdown.Item
+                                            href="/orderhistory" className="dropdownMenuShow">Vos commandes
+                                        </Dropdown.Item>
+                                        <hr/>
+                                        <Dropdown.Item to="#signout" className="dropdownMenuShow" onClick={signoutHandler}>Se
+                                            déconnecter</Dropdown.Item>
+                                    </Dropdown.Menu>
+                                </Dropdown>
 
-                                <Dropdown.Menu className="dropdownMenuShow">
-                                    <Dropdown.Item
-                                        href="/profile" className="dropdownMenuShow">Votre profil
-                                    </Dropdown.Item>
-                                    <Dropdown.Item
-                                    href="/orderhistory" className="dropdownMenuShow">Vos commandes
-                                    </Dropdown.Item>
-                                    <hr/>
-                                    <Dropdown.Item to="#signout" className="dropdownMenuShow" onClick={signoutHandler}>Se
-                                        déconnecter</Dropdown.Item>
-                                </Dropdown.Menu>
-                            </Dropdown>
+                                // <div className="dropdown">
+                                //     <Link className="headerOptionContainer" to="/#">
+                                //         <div className="headerOption">
+                                //             <span className="headerOptionLine1">Bonjour</span>
+                                //             <span className="headerOptionLine2">{userInfo.name}<ArrowDropDownIcon/></span>
+                                //         </div>
+                                //     </Link>
+                                //     <ul className="dropdown-content">
+                                //         <Link to="#signout" onClick={signoutHandler}>Déconnexion</Link>
+                                //     </ul>
+                                // </div>
+                            ) :
 
-                            // <div className="dropdown">
-                            //     <Link className="headerOptionContainer" to="/#">
-                            //         <div className="headerOption">
-                            //             <span className="headerOptionLine1">Bonjour</span>
-                            //             <span className="headerOptionLine2">{userInfo.name}<ArrowDropDownIcon/></span>
-                            //         </div>
-                            //     </Link>
-                            //     <ul className="dropdown-content">
-                            //         <Link to="#signout" onClick={signoutHandler}>Déconnexion</Link>
-                            //     </ul>
-                            // </div>
-                        ) : (
-                            <Link className="headerOptionContainer" to="/signin">
-                                <div className="headerOption">
-                                    <span className="headerOptionLine1">Bonjour</span>
-                                    <span className="headerOptionLine2">Identifiez-vous</span>
-                                </div>
-                            </Link>
-                        )
+                            userInfo && userInfo.isAdmin ? (
+
+                                    <Dropdown as={ButtonGroup}>
+                                        <Link className="headerOptionContainer" to="/dashboard">
+                                            <div className="headerOption">
+                                                <span className="headerOptionLine1">Espace</span>
+                                                <span className="headerOptionLine2">Admin</span>
+                                            </div>
+                                        </Link>
+
+                                        <div className="dropdownButtonContainer">
+                                            <Dropdown.Toggle className="dropdownButton"/>
+                                        </div>
+
+                                        <Dropdown.Menu className="dropdownMenuShow">
+                                            <Dropdown.Item
+                                                href="/profile" className="dropdownMenuShow">Votre profil
+                                            </Dropdown.Item>
+                                            <Dropdown.Item
+                                                href="/orderhistory" className="dropdownMenuShow">Vos commandes
+                                            </Dropdown.Item>
+                                            <hr/>
+                                                <div
+                                                    className="dropdownMenuShow admin">Espace Admin :
+                                                </div>
+                                            <Dropdown.Item
+                                                href="/dashboard" className="dropdownMenuShow">Dashboard
+                                            </Dropdown.Item>
+                                            <Dropdown.Item
+                                                href="/productlist" className="dropdownMenuShow">Produits
+                                            </Dropdown.Item>
+                                            <Dropdown.Item
+                                                href="/orderlist" className="dropdownMenuShow">Commandes
+                                            </Dropdown.Item>
+                                            <Dropdown.Item
+                                                href="/userlist" className="dropdownMenuShow">Utilisateurs
+                                            </Dropdown.Item>
+                                            <hr/>
+                                            <Dropdown.Item to="#signout" className="dropdownMenuShow"
+                                                           onClick={signoutHandler}>Se
+                                                déconnecter</Dropdown.Item>
+                                        </Dropdown.Menu>
+                                    </Dropdown>
+                                )
+                                :
+                                (
+                                    <Link className="headerOptionContainer" to="/signin">
+                                        <div className="headerOption">
+                                            <span className="headerOptionLine1">Bonjour</span>
+                                            <span className="headerOptionLine2">Identifiez-vous</span>
+                                        </div>
+                                    </Link>
+                                )
                     }
-
-                    {userInfo && userInfo.isAdmin && (
-
-                        <Dropdown as={ButtonGroup}>
-                            <Link className="headerOptionContainer" to="/dashboard">
-                                <div className="headerOption">
-                                    <span className="headerOptionLine1">Espace</span>
-                                    <span className="headerOptionLine2">Admin</span>
-                                </div>
-                            </Link>
-
-                            <div className="dropdownButtonContainer">
-                                <Dropdown.Toggle className="dropdownButton"/>
-                            </div>
-
-                            <Dropdown.Menu className="dropdownMenuShow">
-                                <Dropdown.Item
-                                    href="/dashboard" className="dropdownMenuShow">Dashboard
-                                </Dropdown.Item>
-                                <Dropdown.Item
-                                    href="/productlist" className="dropdownMenuShow">Produits
-                                </Dropdown.Item><Dropdown.Item
-                                    href="/orderlist" className="dropdownMenuShow">Commandes
-                                </Dropdown.Item><Dropdown.Item
-                                    href="/userlist" className="dropdownMenuShow">Utilisateurs
-                                </Dropdown.Item>
-                                <hr/>
-                                <Dropdown.Item to="#signout" className="dropdownMenuShow" onClick={signoutHandler}>Se
-                                    déconnecter</Dropdown.Item>
-                            </Dropdown.Menu>
-                        </Dropdown>
-                    )}
 
                     {/*<Nav.Link href="#orders">*/}
                     {/*    <div className="headerOption">*/}
